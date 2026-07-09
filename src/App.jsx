@@ -66,7 +66,7 @@ export default function App() {
             </li>
             })}
         </ul> */}
-        <TodoList />
+        <TodoList todo={todo} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
  </>
  )
 }
